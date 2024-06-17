@@ -1,0 +1,34 @@
+student,がくせい
+Excuse me,すみませ
+by,じゃあね
+Now,いま　・　今
+Shoes,くつ　・　靴 
+coat,コト
+hat,ぼうし
+country,くに
+people,人　・　ひと
+lenguaje,ことば
+book,ほん
+dictionary,じしょ
+magazine,ざっし
+newspaper,しんぶん
+notebook,ノート
+pencil,えんぴつ
+key,かぎ
+Watch,とけい
+umbrella,かさ
+desk,つくえ
+chair,いす
+Interesting-fun-funny,おもしろい　・　面白い
+Boring,つまらない
+Cute-pretty,かわいい　・　可愛い
+Frightening,こわい
+Small,ちいさい
+big,おおきい
+New,あたらしい
+Old,ふるい
+Busy,いそがしい
+Not busy,ひま(な)
+Hot,あつい
+Cold,さむい
+good-delicious,おいしい
