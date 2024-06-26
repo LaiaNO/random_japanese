@@ -32,3 +32,10 @@ Not busy,ひま(な)
 Hot,あつい
 Cold,さむい
 good-delicious,おいしい
+pear,なし
+apple,りんご
+Strawberry,いちご
+Peach,もも
+Watermelon,すいか
+Grapes,ぶどう
+Cherry,さくらんぼ
