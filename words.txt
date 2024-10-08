@@ -39,3 +39,15 @@ Peach,もも
 Watermelon,すいか
 Grapes,ぶどう
 Cherry,さくらんぼ
+white,しろい
+red,あかい
+black,くろい
+orange,オレンジ
+yellow,きいろ
+green,みどり
+light-blue,みずいろ
+purple,むらさき
+pink,ピンク
+brown,ちゃいろい
+gray,はいいろ
+gold,きにる
