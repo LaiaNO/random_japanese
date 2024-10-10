@@ -1,0 +1,7 @@
+pear,なし
+apple,りんご
+Strawberry,いちご
+Peach,もも
+Watermelon,すいか
+Grapes,ぶどう
+Cherry,さくらんぼ
