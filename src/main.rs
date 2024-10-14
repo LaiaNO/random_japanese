@@ -4,7 +4,48 @@ use std::error::Error;
 use std::fs;
 use std::io;
 
+mod category;
+mod words;
+
+use category::Category;
+use words::Words;
+
 fn main() -> Result<(), Box<dyn Error>> {
+    let files = fs::read_dir("Words")?
+        .map(|res| res.map(|e| Category(e.path())))
+        .collect::<Result<Vec<_>, io::Error>>()?;
+
+    println!("Select one category:");
+    for (index, category) in files.iter().enumerate() {
+        println!("{}: {}", index, category.file_name());
+    }
+    let mut category = String::new();
+    io::stdin().read_line(&mut category)?;
+
+    // Importar archivo
+    let category: usize = category.trim().parse()?;
+    let message = fs::read_to_string(&files[category].0)?;
+    let mut words = Words::new(&message);
+
+    let mut user_entry = String::new();
+    loop {
+        user_entry.clear();
+        let (eng, jap) = words.random().expect("Siempre hay lineas para elegir");
+
+        // Devolver llave random
+        println!("{}", eng);
+        // Enter para ver respuesta
+        io::stdin().read_line(&mut user_entry).unwrap();
+        if user_entry.trim() == "exit" {
+            break;
+        }
+        println!("{}", jap);
+    }
+    Ok(())
+}
+
+#[allow(unused)]
+fn main_second_try() -> Result<(), Box<dyn Error>> {
     // Importar archivo
     let message = fs::read_to_string("words.txt")?;
     // Get variables

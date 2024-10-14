@@ -1,0 +1,13 @@
+Interesting-fun-funny,おもしろい　・　面白い
+Boring,つまらない
+Cute-pretty,かわいい　・　可愛い
+Frightening,こわい
+Small,ちいさい
+big,おおきい
+New,あたらしい
+Old,ふるい
+Busy,いそがしい
+Not busy,ひま(な)
+Hot,あつい
+Cold,さむい
+good-delicious,おいしい
